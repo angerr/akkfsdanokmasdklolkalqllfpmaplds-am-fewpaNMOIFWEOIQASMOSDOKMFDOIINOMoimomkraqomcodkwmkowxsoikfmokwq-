@@ -12,7 +12,7 @@ client.on('message', msg => {
 });
 
 client.on('ready',  () => {
-  console.log('By : .beee ');
+  console.log('By : حسوني العراقي ');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
@@ -27,7 +27,7 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField("『✖ Crew.』 『اسم البوت』", true)
+      .addField("『✖ Crew Sytem』 『اسم البوت』", true)
       
       .addField("『.beee#6829』『مصمم البوت』", true)
       
@@ -322,7 +322,7 @@ client.on("message", message => {
 
 ^^support| القسم الثاني  الدعم الفني و المساعدة
 
-القسم الثالث مصمم البوت | @88#0808 
+
 
 ● ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ● 
 
@@ -381,7 +381,7 @@ client.on("message", message => {
 
 ^^support| القسم الثاني  الدعم الفني و المساعدة
 
-القسم الثالث مصمم البوت | @88#0808 
+
 
 
 
@@ -440,7 +440,7 @@ client.on("message", message => {
 
 ^^support| القسم الثاني  الدعم الفني و المساعدة
 
-القسم الثالث مصمم البوت | @88#0808 
+
 
 
 `)
@@ -1209,4 +1209,5 @@ client.on('message', message => {
    message.channel.sendEmbed(EsTeKnAN);
   }
 });
+client.login(process.env.BOT_TOKEN);
 
