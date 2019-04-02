@@ -1207,6 +1207,8 @@ client.on('message', message => {
   .setDescription('***كل شيء يرحب بك كل شيء يتبسم ويتوهج فرحاً بقدومك كل شيء ينمق عبارات الترحيب ويصوغ كلمات الحب لوجودك كل شيء ينتظر مشارك��تك وقلمك الرائع وأبداعاتك كل شيء يردد حياك الله.***')
   .setImage('https://www.askideas.com/media/13/Beautiful-Wooden-Welcome-Sign.jpg')
    message.channel.sendEmbed(EsTeKnAN);
+	 client.login(process.env.BOT_TOKEN);
+
   }
 });
 
